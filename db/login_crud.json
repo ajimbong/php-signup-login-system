@@ -1,0 +1,16 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"login_crud"},
+{"type":"table","name":"user","database":"login_crud","data":
+[
+{"uid":"3","name":"Jimmy","email":"contact@ajimbong.me","password":"$2y$10$cBFtgYD0izEJ\/0LgzZmab.BX3FuGuZicXARBQcU0fKsZjMe\/cEmKW","created_at":"2021-12-14 12:13:56"},
+{"uid":"4","name":"Carl","email":"carl@gmil.com","password":"$2y$10$ibBqtd7Q1EwdkrgHOM81YuuksIOXShMq6wbWbrsjylTiZZP5mKsdK","created_at":"2021-12-14 13:50:19"},
+{"uid":"5","name":"Carl","email":"carl@gmail.com","password":"$2y$10$CUtNM13GXekphTTFnczLNuNM2gw3nSEvmSYWc9UbW87UIwVWJlcg.","created_at":"2021-12-14 15:35:50"},
+{"uid":"6","name":"","email":"","password":"$2y$10$USvczPMXsudBHowL7a3wiuZOJn1.ii.r.EtmDLAGcW7Yk0KkvvxTW","created_at":"2021-12-14 20:19:56"},
+{"uid":"7","name":"Trisha","email":"trish@gmail.com","password":"$2y$10$OqRlgwuGq1IUkfJJtmWI7emHDbW8JBz.XhA8eX5adiUjQOth8xSH6","created_at":"2021-12-14 20:22:25"},
+{"uid":"8","name":"Puria","email":"puria@gmail.com","password":"$2y$10$VwxoULbkUw4e7TiIfidP6.6mK3f0fdtT3O8xBeG5Ps2RK3K3.cYZS","created_at":"2021-12-15 13:34:09"},
+{"uid":"9","name":"william","email":"heyenoh123@gmail.com","password":"$2y$10$EVIWZcm2aMV2t5wDkORom.LzKwDr4meJ0s2\/t1HGdd1aYpm23L.Z2","created_at":"2021-12-15 13:36:46"},
+{"uid":"10","name":"Carl","email":"carlsonnji58@gmail.com","password":"$2y$10$2EyegTB9wjvu7EcgvZjHPe.bDDQRANMmA3uAmO3DrJMTcYxFw9QlG","created_at":"2021-12-15 13:39:01"}
+]
+}
+]

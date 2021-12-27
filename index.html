@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/syles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container" id="page">
+        <div class="background">
+            
+        </div>
+        <div class="content">
+            <div>
+                <h1>Welcome Friend!!</h1>
+                <div class="btn">
+                    <button id="loginPop">Login</button>
+                    <button class="signup" id="signUpPop">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pop form-view" id="login" >
+        <div class="form">
+            <h1>Login</h1>
+            <form action="services/login.php" method="POST">
+                <div>
+                    <label for="email">Email :</label>
+                <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Password :</label>
+                    <input type="password" name="password" id="" required>
+                </div>
+                
+                <div class="btn">
+                    <button id="loginBtn" name="login" type="submit">Login</button>
+                </div>
+                
+                
+            </form>
+        </div>
+    </div>
+    <div class="pop form-view" id="signUp">
+        <div class="form">
+            <h1>Sign Up</h1>
+            <form action="services/signup.php" method="POST">
+                <div>
+                <label for="name">Name :</label>
+                <input type="text" id="sName" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                <input type="email" name="email" id="sEmail">
+                </div>
+                <div>
+                    <label for="password">Password :</label>
+                    <input type="password" name="password" id="sPassword">
+
+                </div>
+                
+                <div class="btn">
+                    <button id="signUpBtn" name="signup" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>
